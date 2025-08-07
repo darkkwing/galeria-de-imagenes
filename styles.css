@@ -1,11 +1,15 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: #9db6cf;
+    background-size: cover;
+    background-position: center;
 }
 
 .image{
-    border: 5px solid green;
+    border: 5px solid rgb(0, 51, 128);
     border-radius: 10px;
     height: 400px;
+    box-shadow: 4px 6px 12px rgba (0, 0, 0, 0.3);
+    object-fit: cover;
 }
 
 .link-button {
@@ -16,4 +20,16 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-weight: 500;
+    cursor: pointer;
 }
+.link-button:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.3);
+}
+h1{
+    font-weight: 600;
+    color: #151466;
